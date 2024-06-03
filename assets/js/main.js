@@ -267,3 +267,6 @@
       clickable: true
     }
   });
+
+let d = new Date();
+age.innerHTML = d.getFullYear() - 1981;
