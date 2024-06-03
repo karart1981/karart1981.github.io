@@ -249,7 +249,9 @@
         });
     }
     form.addEventListener("submit", handleSubmit);
-
+    
+    let d = new Date();
+    age.innerHTML = d.getFullYear() - 1981;
     // certificates
     /**
    * Portfolio details slider
@@ -268,5 +270,3 @@
     }
   });
 
-let d = new Date();
-age.innerHTML = d.getFullYear() - 1981;
