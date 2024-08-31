@@ -215,9 +215,9 @@
 
     const form = document.getElementById("my-form");
     const fullName = document.getElementById("name");
-	const email = document.getElementById("email");
-	const subject = document.getElementById("subject");
-	const mess = document.getElementById("message");
+	  const email = document.getElementById("email");
+	  const subject = document.getElementById("subject");
+	  const mess = document.getElementById("message");
 
     async function handleSubmit(event) {
         event.preventDefault();
